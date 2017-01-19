@@ -4,5 +4,4 @@ before_install :
   - sudo apt-get -qq install octave
 install :
   - echo pass
-script :
-  - make test-octave
+script : runTest.m
